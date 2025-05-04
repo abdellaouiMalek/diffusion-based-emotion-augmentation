@@ -19,7 +19,7 @@ graph TD
     E --> F[Augmented Spectrograms]
     F --> G[Waveform Reconstruction]
     G --> H[Classifier Training]
-
+```
 ## Datasets
 
 1. **EmoDB (Berlin Database of Emotional Speech)**
