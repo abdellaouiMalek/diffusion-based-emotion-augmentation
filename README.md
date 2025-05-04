@@ -3,11 +3,10 @@ Enhancing speech emotion recognition through diffusion-based audio augmentation.
 
 ## Table of Contents
 - [Methodology](#methodology)
-- [Key Results](#key-results)
 - [Datasets](#datasets)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Requirements](#usage)
 
+## Methodology
 ### Pipeline Overview
 ```mermaid
 graph TD
@@ -26,47 +25,14 @@ graph TD
    - Contains emotional speech recordings from 10 actors (5 male, 5 female)
    - 7 emotions: anger, boredom, disgust, fear, happiness, sadness, neutral
    - 535 audio files in total
+   - [Link Text]([https://example.com](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb) "Find the EmoDB dataset here")
+
 
 2. **RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)**
    - Contains emotional speech recordings from 24 professional actors (12 male, 12 female)
    - 8 emotions: neutral, calm, happy, sad, angry, fearful, disgust, surprised
    - 1,440 audio files in total
-
-
-## Requirements
-
-```
-numpy
-pandas
-matplotlib
-seaborn
-librosa
-soundfile
-tqdm
-```
-
-Install the required packages with:
-
-```bash
-pip install librosa soundfile pandas matplotlib seaborn tqdm
-```
-
-## Usage
-
-### Basic Usage
-
-To process both datasets and save the combined data:
-
-```bash
-python main.py
-```
-
-This will:
-1. Load both EmoDB and RAVDESS datasets
-2. Extract audio features
-3. Combine the datasets
-4. Save the processed data to `output/processed_data.pkl`
-5. Create visualizations for sample audio files
+   - [Link Text]([https://example.com](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio) "Find the RAVDESS dataset here")
 
 ## Dataset Structure
 
@@ -89,3 +55,22 @@ The filename format is: `XX-YY-ZZ-AA-BB-CC-DD.wav` where:
 - BB: Statement (01="Kids are talking by the door", 02="Dogs are sitting by the door")
 - CC: Repetition (01=1st repetition, 02=2nd repetition)
 - DD: Actor (01 to 24. Odd numbered actors are male, even numbered actors are female)
+
+## Requirements
+
+```
+numpy
+pandas
+matplotlib
+seaborn
+librosa
+soundfile
+tqdm
+```
+
+Install the required packages with:
+
+```bash
+pip install librosa soundfile pandas matplotlib seaborn tqdm
+```
+
