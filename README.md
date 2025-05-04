@@ -9,6 +9,7 @@ Enhancing speech emotion recognition through diffusion-based audio augmentation.
 - [Usage](#usage)
 
 ### Pipeline Overview
+```mermaid
 graph TD
     A[Raw Audio] --> B[Mel-Spectrograms]
     B --> C[Emotion Embeddings]
@@ -18,7 +19,6 @@ graph TD
     E --> F[Augmented Spectrograms]
     F --> G[Waveform Reconstruction]
     G --> H[Classifier Training]
-
 
 ## Datasets
 
