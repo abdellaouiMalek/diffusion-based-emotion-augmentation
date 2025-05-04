@@ -1,6 +1,25 @@
 # EmoDB and RAVDESS Dataset Processing
+Enhancing speech emotion recognition through diffusion-based audio augmentation. This project generates emotionally-enhanced audio samples to improve classifier performance.
 
-This project aims to enhance emotion clarity in audio waveforms using diffusion models in order to improve speech emotion recognition and synthesis tasks.
+## Table of Contents
+- [Methodology](#methodology)
+- [Key Results](#key-results)
+- [Datasets](#datasets)
+- [Installation](#installation)
+- [Usage](#usage)
+
+### Pipeline Overview
+```mermaid
+graph TD
+    A[Raw Audio] --> B[Mel-Spectrograms]
+    B --> C[Emotion Embeddings]
+    B --> D[Style Embeddings]
+    C --> E[Diffusion Model]
+    D --> E
+    E --> F[Augmented Spectrograms]
+    F --> G[Waveform Reconstruction]
+    G --> H[Classifier Training]
+
 
 ## Datasets
 
