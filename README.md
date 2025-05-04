@@ -1,6 +1,6 @@
 # EmoDB and RAVDESS Dataset Processing
 
-This project provides tools for importing, decoding, and visualizing the EmoDB and RAVDESS emotional speech datasets.
+This project aims to enhance emotion clarity in audio waveforms using diffusion models in order to improve speech emotion recognition and synthesis tasks.
 
 ## Datasets
 
