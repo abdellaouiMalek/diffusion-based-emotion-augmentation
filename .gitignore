@@ -1,0 +1,15 @@
+# Virtual environments
+venv/
+
+# Audio files and datasets 
+*.wav
+EmoDB/
+RAVDESS/
+
+# PDF files 
+*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
