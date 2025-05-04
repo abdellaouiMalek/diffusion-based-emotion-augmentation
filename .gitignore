@@ -13,3 +13,6 @@ RAVDESS/
 __pycache__/
 *.py[cod]
 *.ipynb_checkpoints
+*.py
+
+main2.ipynb
